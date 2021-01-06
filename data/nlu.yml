@@ -1,0 +1,147 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hei
+    - hello
+    - halo
+    - hai
+    - hi
+    - assalamualaikum
+    - selamat pagi
+    - pagi
+    - siang
+    - selamat siang
+    - sore 
+    - selamat sore
+    - malam
+    - selamat malam
+
+- intent: goodbye
+  examples: |
+    - dadah
+    - sampai jumpa juga
+    - sampai jumpa lagi
+    - see u later
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - ya
+    - iya
+    - yes
+    - y
+    - terbantu
+    - sangat terbantu
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - nah
+    - tidak 
+    - ngga
+    - engga
+    - enggak
+    - nggak
+    - belum
+    - kurang membantu
+
+- intent: thanks
+  examples: |
+    - terimakasih
+    - terima kasih
+    - thanks
+    - thank you!
+    - thankyou
+    - thank u
+    - makasih
+    - makasi
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: jalur_masuk
+  examples: |
+    - jalur masuk
+    - cara masuk
+    - jalur masuk ipb
+    - cara masuk ipb
+    - ada berapa jalur masuk ipb?
+    - bagaimana cara masuk ipb?
+    - apa saja jalur masuk yang ada di ipb?
+
+- intent: biaya_kuliah
+  examples: |
+    - biaya kuliah
+    - biaya kuliah ipb
+    - ukt
+    - biaya ukt
+    - berapa biaya kuliah di ipb?
+    - berapa biaya kuliah ipb?
+    - berapa biaya ukt di ipb?
+    - bagaimana biaya perkuliahan untuk S1?
+
+- intent: maba_asrama
+  examples: |
+    - apakah mahasiswa baru ipb wajib tinggal di asrama?
+    - apakah maba wajib asrama?
+    - apakah maba ipb wajib tinggal di asrama?
+
+- intent: akreditasi_fakultas
+  examples: |
+    - apa akreditasi fakultas-fakultas program studi sarjana ipb?
+    - akreditasi fakultas yang ada di ipb?
+    - apa saja akreditasi fakultas-fakultas program sarjana ipb?
+
+- intent: peserta_bidikmisi
+  examples: |
+    - apakah jalur seleksi mandiri ipb (termasuk jalur Ketua OSIS) bisa mengajukan beasiswa Bidikmisi?
+    - apakah beasiswa bidikmisi bisa diikuti oleh peserta jalur mandiri? 
+    - apakah jalur seleksi mandiri ipb bisa mengajukan beasiswa Bidikmisi?
+    - beasiswa bidikmisi ditujukan untuk siapa saja?
+    - siapa saja yang bisa mengikuti beasiswa bidikmisi
+
+- intent: jalur_ketos
+  examples: |
+    - apakah jalur ketua osis dapat diikuti oleh siswa dari SMK?
+    - siapa saja yang bisa ikut jalur ketua osis?
+
+- intent: beasiswa_tahfiz
+  examples: |
+    - apakah ipb ada beasiswa jalur tahfiz quran?
+    - apakah ada beasiswa untuk calon maba jalur tahfiz quran?
+    - adakah beasiswa tahfiz quran?
+
+- intent: test_mandiri
+  examples: |
+    - adakah test masuk ipb jalur mandiri?
+    - apakah ada test jalur mandiri di ipb?
+
+- intent: tahapan_bud
+  examples: |
+    - apa saja tahapan untuk jalur bud?
+    - apa itu jalur bud?
+    - info tahapan untuk jalur bud?
+
+- intent: utbk_saintek
+  examples: |
+    - apakah benar ipb hanya menerima peserta Ujian Tulis Berbasis Komputer (UTBK) sebagai syarat mendaftar Seleksi Bersama Masuk Perguruan Tinggi negeri (SBMPTN) melalui rumpun Saintek saja?
+    - apa benar ipb hanya menerima peserta utbk sebagai syarat sbmptn melalui saintek saja?
+
+- intent: biaya_sv
+  examples: |
+    - biaya pendaftaran sekolah vokasi?
+    - berapa biaya pendaftaran untuk sekolah vokasi?
+    - berapa biaya pendaftaran sv?

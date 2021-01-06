@@ -1,0 +1,142 @@
+version: "2.0"
+
+stories:
+
+- story: jalur masuk TERJAWAB
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: jalur_masuk
+  - action: utter_jalur_masuk
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: jalur masuk TDK TERJAWAB - nanya jalur ketos
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: jalur_masuk
+  - action: utter_jalur_masuk
+  - action: utter_apakah_terjawab
+  - intent: deny
+  - action: utter_apa_ygingin_ditanya_lagi
+  - intent: jalur_ketos
+  - action: utter_ketos
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: biaya kuliah TERJAWAB
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: biaya_kuliah
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: maba di asrama TERJAWAB
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: maba_asrama
+  - action: utter_maba_asrama
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: akreditasi fakultas TERJAWAB
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: akreditasi_fakultas
+  - action: utter_akreditasi
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: peserta jalur bidikmisi TERJAWAB
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: peserta_bidikmisi
+  - action: utter_bidikmisi
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: peserta jalur ketos TERJAWAB
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: jalur_ketos
+  - action: utter_ketos
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: beasiswa tahfiz quran TERJAWAB
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: beasiswa_tahfiz
+  - action: utter_tahfiz
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: utmi TERJAWAB
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: test_mandiri
+  - action: utter_test_mandiri
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: tahapan bud TERJAWAB
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: tahapan_bud
+  - action: utter_tahapan_bud
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: utbk sbmptn saintek TERJAWAB
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: utbk_saintek
+  - action: utter_utbk_saintek
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: biaya daftar sv TERJAWAB
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ada_ygbisa_dibantu
+  - intent: biaya_sv
+  - action: utter_biaya_daftarsv
+  - action: utter_apakah_terjawab
+  - intent: affirm
+  - action: utter_goodbye
+
+
+  

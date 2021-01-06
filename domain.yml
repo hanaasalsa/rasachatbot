@@ -1,0 +1,80 @@
+version: "2.0"
+
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- thanks
+- bot_challenge
+- jalur_masuk
+- biaya_kuliah
+- maba_asrama
+- akreditasi_fakultas
+- peserta_bidikmisi
+- jalur_ketos
+- beasiswa_tahfiz
+- test_mandiri
+- tahapan_bud
+- utbk_saintek
+- biaya_sv
+
+responses:
+  utter_greet:
+  - text: Hai! Perkenalkan aku Agri. Agri akan membantu menjawab kebingunganmu mengenai Penerimaan Mahasiswa Baru IPB.
+  
+  utter_ada_ygbisa_dibantu:
+  - text: Ada yang bisa Agri bantu?
+  
+  utter_apa_ygingin_ditanya_lagi:
+  - text: Apa yang ingin Kamu tanyakan lagi kepada Agri?
+  
+  utter_apakah_terjawab:
+  - text: Apakah jawaban Agri membantumu?
+  
+  utter_goodbye:
+  - text: Senang bisa membantumu. Sampai jumpa lagi!
+  
+  utter_thanks:
+  - text: Sama-sama. Agri senang bisa membantumu.
+  
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  
+  utter_jalur_masuk:
+  - text: 'Ada enam jalur masuk IPB yaitu SNMPTN, SBMPTN, Jalur UTMI (Mandiri), Jalur Prestasi Internasional Nasional (PIN), Jalur BUD, dan Jalur Afirmasi. Jalur ketua OSIS dan hafidz Quran masuk ke dalam jalur PIN, bersama dengan prestasi-prestasi akademik lainnya. '
+  
+  utter_biaya_kuliah:
+  - text: Biaya pendidikan di IPB menggunakan uang kuliah tunggal (UKT) yang ditentukan dalam beberapa golongan yang dapat dilihat di website http://admisi.ipb.ac.id.
+  
+  utter_maba_asrama:
+  - text: Mahasiswa tingkat satu atau yang masih berada di Program Pendidikan Kompetensi Umum(PPKU) wajib untuk tinggal di asrama selama setahun. Informasi lengkap dapat diakses di http://asramappku.ipb.ac.id.
+  
+  utter_akreditasi:
+  - text: Lebih dari 90 persen program studi di IPB terakreditasi A. Akreditasi IPB dapat dilihat di website http://kmmai.ipb.ac.id/status-akreditasi/program-sarjana-s1/.
+  
+  utter_bidikmisi:
+  - text: IPB tidak menyediakan beasiswa Bidikmisi untuk peserta jalur mandiri.  Bidikmisi hanya diperuntukkan bagi peserta jalur SNMPTN dan SBMPTN.
+  
+  utter_ketos:
+  - text: Jalur ketua OSIS dikhususkan hanya untuk lulusan SMA IPA.
+  
+  utter_tahfiz:
+  - text: Tidak ada beasiswa khusus untuk hafidz Quran. Pada dasarnya setiap mahasiswa bisa mengajukan permohonan beasiswa studi sepanjang memenuhi syarat-syarat yang ditetapkan. Informasi beasiswa dapat dilihat di https://ipb.ac.id/page/students/scholarship/
+  
+  utter_test_mandiri:
+  - text: Ada, Ujian Talenta Masuk IPB (UTM IPB) adalah jalur mandiri IPB melalui
+      ujian tertulis.
+  
+  utter_tahapan_bud:
+  - text: Jalur ini merupakan jalur kerjasama antara Institut Pertanian Bogor dengan Kementerian/Pemerintah Daerah/Perusahaan/Yayasan. Sebelum calon mahasiswa dikirim untuk kuliah di IPB,  Kementerian/Pemerintah Daerah/Perusahaan/Yayasan harus  melakukan penandatanganan Memorandum of Understanding (MoU) dan Surat Perjanjian Kerjasama (SPK) dengan IPB. Selanjutnya proses seleksi dilakukan. Informasi lengkap terkait pendaftaran jalur BUD ini dapat diakses di https://admisi.ipb.ac.id/beasiswa-utusan-daerah/
+  
+  utter_utbk_saintek:
+  - text: sebagai syarat mendaftar Seleksi Bersama Masuk Perguruan Tinggi negeri (SBMPTN) melalui rumpun Saintek saja? Benar, UTBK IPB untuk mendaftar SBMPTN hanya dari jalur Saintek/IPA saja.
+  
+  utter_biaya_daftarsv:
+  - text: Biaya pendaftaran untuk USMI IPB (Sekolah Vokasi) sebesar Rp. 400.000 sesuai yang tertera pada website http://admisi.ipb.ac.id.
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
